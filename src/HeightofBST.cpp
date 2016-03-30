@@ -70,7 +70,7 @@ int get_left_subtree_sum(struct node *root){
 int get_right_subtree_sum(struct node *root){
 	if (root == NULL)
 		return 0;
-	int right_sum, tree_sum;
+	int tree_sum;
 	tree_sum = root->data;
 	return Add_tree(root->right);
 }
