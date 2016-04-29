@@ -34,12 +34,12 @@ Return -1 ,for Invalid Inputs
 #include <stdio.h>
 
 struct node{
-  struct node * left;
-  int data;
-  struct node *right;
+	struct node * left;
+	int data;
+	struct node *right;
 };
 
 int get_closest_leaf_distance(struct node *root, struct node *temp)
 {
-  return -1;
+	return -1;
 }

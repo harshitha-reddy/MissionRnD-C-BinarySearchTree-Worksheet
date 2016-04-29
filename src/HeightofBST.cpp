@@ -74,4 +74,3 @@ int get_right_subtree_sum(struct node *root){
 	tree_sum = root->data;
 	return Add_tree(root->right);
 }
-
